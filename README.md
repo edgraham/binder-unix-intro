@@ -4,4 +4,6 @@ Initially forked from [here](https://github.com/binder-examples/conda). Thank yo
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/conda/master)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/conda/master?urlpath=terminal)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/conda/master?urlpath=lab)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/conda/master?urlpath=lab/terminal)
