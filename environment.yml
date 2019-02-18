@@ -1,7 +1,6 @@
 name: example-environment
 channels:
   - conda-forge
+  - anaconda
 dependencies:
-  - numpy
-  - matplotlib
-  - pandas
+  - nano
