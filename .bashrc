@@ -120,11 +120,11 @@ fi
 # GRAY="\[$(tput setaf 248)\]"
 # RESET="\[$(tput sgr0)\]"
 
-GREEN='\033[0;32m'
-RED='\033[0;31m'
+# GREEN='\033[0;32m'
+GREY='\033[0;37m'
 NC='\033[0m'
 
 # putting full path in prompt
-export PS1="${GREEN}[\$PWD]${NC}\$ "
+export PS1="${GREY}[\$PWD]${NC}\$ "
 
-cd unix_intro
+cd bash_intro
