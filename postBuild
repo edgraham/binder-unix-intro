@@ -1,11 +1,15 @@
-pip install bash_kernel
-python -m bash_kernel.install
+#! /bin/bash 
 
-printf '
+# pip install bash_kernel
+# python -m bash_kernel.install
+
+# printf '
 # coloring prompt
-GRAY="\[$(tput setaf 248)\]"
-RESET="\[$(tput sgr0)\]"
+# GRAY="\[$(tput setaf 248)\]"
+# RESET="\[$(tput sgr0)\]"
 
 # PROMPT here
-export PS1="${GRAY}[\$PWD]${RESET}\$ "
-' >> ~/.bash_profile
+# export PS1="${GRAY}[\$PWD]${RESET}\$ "
+# ' >> ~/.bash_profile
+
+source ~/.bash_profile
