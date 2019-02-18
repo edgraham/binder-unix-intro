@@ -9,5 +9,3 @@ RESET="\[$(tput sgr0)\]"
 # PROMPT here
 export PS1="${GRAY}[\$PWD]${RESET}\$ "
 ' >> ~/.bash_profile
-
-source ~/.bash_profile
