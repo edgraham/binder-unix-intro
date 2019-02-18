@@ -126,3 +126,5 @@ NC='\033[0m'
 
 # putting full path in prompt
 export PS1="${GREEN}[\$PWD]${NC}\$ "
+
+cd unix_intro
