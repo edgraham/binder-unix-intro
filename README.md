@@ -1,4 +1,4 @@
-# Binder for Unix Introduction
+# Binder for Bash Introduction
 
 Initially forked from [here](https://github.com/binder-examples/conda). Thank you to the awesome [binder](https://mybinder.org/) team!
 
