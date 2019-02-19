@@ -116,15 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-# coloring prompt
-GRAY="\[$(tput setaf 248)\]"
-RESET="\[$(tput sgr0)\]"
-
-export PS1="${GRAY}[$PWD]${RESET}\$ "
-
-# changing into working directory
-cd bash_intro
-
-# setting timezone to local in Beirut, Lebanon 
+# setting timezone to Eastern European 
 export TZ="EET"
+
+# formatting prompt
+export PS1="\[$(tput setaf 3)\][\$PWD] $ \[$(tput sgr0)\]"
+
+# changing into working directory for bash intro
+cd bash_intro
