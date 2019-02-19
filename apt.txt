@@ -1,3 +1,4 @@
 nano
 tzdata
-ncurses
+libncurses5-dev
+libncursesw5-dev
