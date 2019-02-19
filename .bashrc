@@ -116,12 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# colors for prompt
-GREEN='\033[0;32m'
-NC='\033[0m'
 
-# putting full path in prompt
-export PS1="${GREEN}[\$PWD]${NC}\$ "
+# coloring prompt
+GRAY="\[$(tput setaf 248)\]"
+RESET="\[$(tput sgr0)\]"
+
+export PS1="${GRAY}[$PWD]${RESET}\$ "
 
 # changing into working directory
 cd bash_intro
