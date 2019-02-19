@@ -123,4 +123,8 @@ NC='\033[0m'
 # putting full path in prompt
 export PS1="${GREEN}[\$PWD]${NC}\$ "
 
+# changing into working directory
 cd bash_intro
+
+# setting timezone to local in Beirut, Lebanon 
+export TZ="EET"
