@@ -1,5 +1,2 @@
 nano
-coreutils
 tzdata
-man-db
-manpages
