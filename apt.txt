@@ -3,6 +3,6 @@ nano
 tzdata
 libncurses5-dev
 libncursesw5-dev
-manpages-dev
+manpages
 man-db
-manpages-posix-dev
+
