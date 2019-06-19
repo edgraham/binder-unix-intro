@@ -1,7 +1,0 @@
-#!/bin/bash
-
-
-tail -n +4 /etc/dpkg/dpkg.cfg.d/excludes > /etc/dpkg/dpkg.cfg.d/excludes.tmp
-mv /etc/dpkg/dpkg.cfg.d/excludes.tmp /etc/dpkg/dpkg.cfg.d/excludes
-
-apt-get install manpages man-db
