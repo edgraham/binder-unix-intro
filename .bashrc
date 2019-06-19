@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # setting timezone to Eastern European 
-export TZ="EET"
+export TZ="PDT"
 
 # formatting prompt
 export PS1="\[$(tput setaf 3)\][\$PWD]\[$(tput sgr0)\]$ "
