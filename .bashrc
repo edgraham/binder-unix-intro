@@ -123,4 +123,4 @@ export TZ="PDT"
 export PS1="\[$(tput setaf 3)\][\$PWD]\[$(tput sgr0)\]$ "
 
 # changing into working directory for bash intro
-cd bash_intro
+cd unix_intro
