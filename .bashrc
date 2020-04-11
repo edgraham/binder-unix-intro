@@ -116,8 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# setting timezone to Eastern European 
-export TZ="PDT"
+# setting timezone to US west coast
+export TZ="America/Los_Angeles"
 
 # formatting prompt
 export PS1="\[$(tput setaf 3)\][\$PWD]\[$(tput sgr0)\]$ "
