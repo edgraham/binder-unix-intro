@@ -9,5 +9,5 @@ Meant to be used for the Unix introduction [here](https://astrobiomike.github.io
 
 BISC 431L Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edgraham/binder-unix-intro/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edgraham/binder-unix-intro/master?urlpath=lab)
 
